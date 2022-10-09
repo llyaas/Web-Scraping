@@ -31,3 +31,4 @@ with open('Ilyaas_archive_dataset_sorted.csv') as input, open('Ilyaas_sorted_WOb
      for row in csv.reader(input):
          if any(field.strip() for field in row):
              writer.writerow(row)
+
